@@ -1,0 +1,27 @@
+{
+  "name": "assignment-one",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch --config nightwatch.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hninwaimon-source/assignment-one.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hninwaimon-source/assignment-one/issues"
+  },
+  "homepage": "https://github.com/hninwaimon-source/assignment-one#readme",
+  "description": "",
+  "devDependencies": {
+    "@swc/core": "^1.11.8",
+    "chromedriver": "^134.0.0",
+    "nightwatch": "^3.12.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}

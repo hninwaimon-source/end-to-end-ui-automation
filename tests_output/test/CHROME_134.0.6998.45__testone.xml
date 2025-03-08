@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="Demo Testing" id="test.testone"
+    errors="0" failures="0" hostname="" id="" package="testone" skipped="0"
+    tests="1" time="4.305" timestamp="">
+  
+    <testcase name="verify the shopping order" classname="Demo Testing" time="4.302" assertions="21">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
