@@ -1,6 +1,6 @@
 E2E Test Automation with Nightwatch.js
 
-In this case, I have implemented the test cases using Nightwatch.js, as there is no specific deadline for submission.
+In this case, I have implemented the test cases following your test cases using Nightwatch.js, as there is no specific deadline for submission.
 I suppose that most automation tests are similar, with differences mainly in the language and framework used.
 
 
