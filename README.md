@@ -27,6 +27,9 @@ Web drivers for supported browsers (ChromeDriver)
 git clone https://github.com/hninwaimon-source/assignment-one.git
 cd assignment-one
 npm install
+npm install nightwatch --save-dev
+npm install chromedriver --save-dev
+
 ```
 
 ```shell
