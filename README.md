@@ -24,7 +24,7 @@ Web drivers for supported browsers (ChromeDriver)
 
 ## Installation
 ```shell
-git clone https://github.com/hninwaimon-source/assignment-one.git
+git clone https://github.com/hninwaimon-source/end-to-end-ui-automation.git
 cd assignment-one
 npm install
 npm install nightwatch --save-dev
