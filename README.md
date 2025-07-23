@@ -30,6 +30,21 @@ npm install
 npm install nightwatch --save-dev
 npm install chromedriver --save-dev
 
+-------------------------------------------------------------
+Local chrome driver version
+npx chromedriver --version
+
+If your version is not updated, 
+npm uninstall chromedriver
+npm install chromedriver@latest --save-dev
+
+Global ChromeDriver installation
+npm install -g chromedriver
+
+Check the version
+chromedriver --version
+--------------------------------------------------------------
+
 ```
 
 ```shell
