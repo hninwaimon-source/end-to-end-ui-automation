@@ -49,7 +49,12 @@ chromedriver --version
 
 ```shell
 npm run test filepath
-eg: npm run test src/test/order.ts
+
+run all file path
+eg: npm run test src/test
+
+run only one file
+eg: npm run test src/test/loginValidation.ts
 ```
 ## Run with headless
 
