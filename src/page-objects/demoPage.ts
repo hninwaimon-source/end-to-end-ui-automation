@@ -18,6 +18,10 @@ const demoCommands = {
           .assert.textContains(selector, value);
   },
 
+  assertLink: function(this: DemoPage, value: string) {
+          return this.expect.url().to.contain(value);
+  }
+
 };
 
 const demoPage: PageObjectModel = {
@@ -55,6 +59,20 @@ const demoPage: PageObjectModel = {
           completeHeader: ".complete-header",
           completeDescription: ".complete-text",
           backHomeButton: "#back-to-products",
+
+          //LoginError
+          errorMessage: ".error-message-container.error",
+
+          //Remove Items
+          removeBackpack: "#remove-sauce-labs-backpack",
+          removeBikeLight: "#remove-sauce-labs-bike-light",
+          removeTshirt: "#remove-sauce-labs-bolt-t-shirt",
+          removeJacket: "#remove-sauce-labs-fleece-jacket",
+          removeRedTshirt:"button[id='remove-test.allthethings()-t-shirt-(red)']",
+          removeOnesie: "#remove-sauce-labs-onesie",
+
+          continueShopping: "#continue-shopping",
+
 
   },
 };

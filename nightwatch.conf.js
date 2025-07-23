@@ -70,7 +70,19 @@ module.exports = {
             //'--ignore-certificate-errors',
             //'--allow-insecure-localhost',
             //'--headless=new'
-          ]
+            '--disable-save-password-bubble',
+            '--disable-password-manager-reauthentication',
+            '--disable-credentials-enable-service',
+            '--disable-infobars',
+            '--no-default-browser-check',
+            // '--incognito',
+            // '--disable-extensions',
+            // '--disable-popup-blocking',
+          ],
+          prefs: {
+            'credentials_enable_service': false,
+            'profile.password_manager_enabled': false
+          }
         }
       },
 
@@ -146,6 +158,5 @@ module.exports = {
     enabled: true,
     log_path: './logs/analytics',
     client_id: '227d3188-f6bd-4e75-bbdb-0906029b86c0'
-  }
-  
+  },  
 };
