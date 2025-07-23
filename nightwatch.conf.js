@@ -75,9 +75,9 @@ module.exports = {
             '--disable-credentials-enable-service',
             '--disable-infobars',
             '--no-default-browser-check',
-            // '--incognito',
-            // '--disable-extensions',
-            // '--disable-popup-blocking',
+            '--incognito',
+            '--disable-extensions',
+            '--disable-popup-blocking',
           ],
           prefs: {
             'credentials_enable_service': false,
